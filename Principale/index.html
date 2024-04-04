@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Biologia.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+   
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var links = document.querySelectorAll("a[href^='#']");
+            links.forEach(function(link) {
+                link.addEventListener("click", function(event) {
+                    event.preventDefault(); 
+                    var targetId = this.getAttribute("href").substring(1); 
+                    var targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        var offset = targetElement.offsetTop; 
+                        window.scrollTo({
+                            top: offset, 
+                            behavior: 'smooth' 
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="#redatori">Redatori</a></li>
+            <li><a href="#argomentiTrattati">Argomenti Trattati</a></li>
+            <li><a href="#videogame">Videogame</a></li>
+          </ul>
+    </nav>
+    
+    <header id="redatori" class="header">
+        <div   class="content-container">
+            <h1>I Redatori</h1>
+            <ul><li>Nabil El Roghy,</li> <li></li>Lorenzo Galli,</li> <li></li>Martin Giacomelli,</li> <li></li>Giacomo Longa.</li>  </ul>
+        </div>
+    </header>
+
+    <div  class="slide-screen">
+    <p class="titolo_slide">
+        Impatto Antropico e Cambiamento Ambientale
+    </p>
+    <p class="paragrafo_slide">
+      L'impatto antropico è l'influenza delle attività umane sull'ambiente, che porta a cambiamenti ambientali come il riscaldamento globale, la perdita di biodiversità e l'inquinamento. Questi cambiamenti hanno gravi conseguenze sulla salute del pianeta e sull'umanità, aumentando il rischio di eventi climatici estremi e malattie legate all'inquinamento. È essenziale adottare azioni per mitigare questo impatto e proteggere l'ambiente per le generazioni future.
+    </p>
+</div>
+<div class="container-all" id="argomentiTrattati">
+  <div class="container" id="punto-di-ritorno">
+    <div class="slider-wrapper">
+      <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+      <div class="image-list">
+        <div class="img_txt_item">
+          <p class="titolo_tipo_slide">L'effetto dell'impatto Antropico sul pianeta Terra</p>
+            <button class="info_slide">
+              <a href="../slide 1/slide-1.html">VEDI DI PIU</a>
+            </button>
+          <img 
+            src="immagini/antropico.jpg" 
+            alt="antropico" 
+            class="image-item">
+        </div>
+      
+        <div class="img_txt_item">
+          <p class="titolo_tipo_slide">
+            Concentrazione di CO2 e perdita di biodiversità negli ultimi 10 anni.</p>
+            <button class="info_slide">
+              <a href="../slide 2/slide-2.html">VEDI DI PIU</a>
+            </button>
+          <img 
+            src="immagini/co2.jpg" 
+            alt="co2" 
+            class="image-item">
+        </div>
+  
+        <div class="img_txt_item">
+          <p class="titolo_tipo_slide"> Gli ecosistemi del parco dello Stelvio sensibili all'attività antropica</p>
+            <button class="info_slide">
+              <a href="../slide 3/slide-3.html">VEDI DI PIU</a>
+            </button>
+          <img 
+            src="immagini/parco (2).jpg" 
+            alt="parco" 
+            class="image-item">
+        </div>
+      
+        <div class="img_txt_item">
+          <p class="titolo_tipo_slide">SIC-ZPS-ZSC (Cosa sono e quali sono quelle in Alta Valtellina)</p>
+            <button class="info_slide">
+              <a href="../slide 4/slide-4.html">VEDI DI PIU</a>
+            </button>
+          <img 
+            src="immagini/zpc.jpg" 
+            alt="zpc" 
+            class="image-item">
+        </div>
+  
+         <div class="img_txt_item">
+          <p class="titolo_tipo_slide">Livigno</p>
+            <button class="info_slide">
+              <a href="../slide 5/slide-5.html">VEDI DI PIU</a>
+            </button>
+          <img 
+            src="immagini/api.openverse-e1664974397180.webp" 
+            alt="Andrew" 
+            class="image-item">
+        </div>
+      
+        <div class="img_txt_item">
+          <p class="titolo_tipo_slide">Le conseguenze del cambiamento climatico a Livigno</p>
+            <button class="info_slide">
+              <a href="../slide 6/slide-6.html">VEDI DI PIU</a>
+            </button>
+          <img 
+            src="immagini/livignooo.avif" 
+            alt="livigno" 
+            class="image-item">
+        </div>
+      
+        <div class="img_txt_item">
+          <p class="titolo_tipo_slide">Attività antropica e biodiversità: convivenza possibile?</p>
+            <button class="info_slide">
+              <a href="../slide 7/slide-7.html">VEDI DI PIU</a>
+            </button>
+          <img 
+            src="immagini/aa.webp" 
+            alt="ape" 
+            class="image-item">
+        </div>
+  
+        <div class="img_txt_item">
+          <p class="titolo_tipo_slide">Come cambierà il paesaggio a <br> Livigno?</p>
+            <button class="info_slide">
+              <a href="../slide 8/slide-8.html">VEDI DI PIU</a>
+            </button>
+          <img 
+            src="Immagini/0fJCTIi8doeKUm8vPNbMTMTVeQw4IxezKxf1gGTn - Copia.jpg" 
+            alt="Livigno" 
+            class="image-item">
+        </div>
+      </div>
+      <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+    </div>
+    <div class="slider-scrollbar">
+      <div class="scrollbar-track">
+        <div class="scrollbar-thumb"></div>
+      </div>
+    </div>
+  </div>   
+
+    
+  </div>
+  <p class="move">trascina per muovere</p>
+    <p class="titolo_servizi">
+        Servizi per una vacanza speciale
+      </p>
+      <p class="paragrafo_camere">
+        Possiamo essere complici per organizzare i vostri momenti speciali. Fresche bollicine, torte deliziose, mazzi di fiori direttamente in camera: scegliete in che modo sorprendere, col nostro aiuto, una persona speciale, per rendere indimenticabile una data importante.
+      </p>
+
+      <script src="Biologia.js"></script>
+</body>
+</html>
